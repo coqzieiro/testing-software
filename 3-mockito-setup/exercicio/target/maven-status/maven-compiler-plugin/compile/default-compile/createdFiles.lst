@@ -1,0 +1,7 @@
+pt/up/fe/inject/User.class
+pt/up/fe/inject/ArticleDatabase.class
+pt/up/fe/inject/ArticleListener.class
+pt/up/fe/withprivate/MyClassWithPrivateFieldAndMethod.class
+pt/up/fe/inject/CartService.class
+pt/up/fe/inject/PriceCalculator.class
+pt/up/fe/inject/ArticleManager.class

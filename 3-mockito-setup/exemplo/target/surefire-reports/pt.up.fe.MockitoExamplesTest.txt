@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: pt.up.fe.MockitoExamplesTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.431 s -- in pt.up.fe.MockitoExamplesTest
