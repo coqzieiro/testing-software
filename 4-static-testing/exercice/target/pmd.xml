@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.14.0" timestamp="2026-10-12T14:41:34.065">
+<file name="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/board/Board.java">
+<violation beginline="24" endline="24" begincolumn="11" endcolumn="26" rule="UseVarargs" ruleset="Best Practices" package="nl.tudelft.jpacman.board" class="Board" method="Board" variable="grid" externalInfoUrl="${pmd.website.baseurl}/pmd_rules_java_bestpractices.html#usevarargs" priority="4">
+Consider using varargs for methods or constructors which take an array the last parameter.
+</violation>
+</file>
+<file name="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/board/BoardFactory.java">
+<violation beginline="38" endline="38" begincolumn="30" endcolumn="45" rule="UseVarargs" ruleset="Best Practices" package="nl.tudelft.jpacman.board" class="BoardFactory" method="createBoard" variable="grid" externalInfoUrl="${pmd.website.baseurl}/pmd_rules_java_bestpractices.html#usevarargs" priority="4">
+Consider using varargs for methods or constructors which take an array the last parameter.
+</violation>
+</file>
+<file name="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/level/Level.java">
+<violation beginline="48" endline="48" begincolumn="30" endcolumn="54" rule="DoNotUseThreads" ruleset="Multithreading" package="nl.tudelft.jpacman.level" class="Level" externalInfoUrl="${pmd.website.baseurl}/pmd_rules_java_multithreading.html#donotusethreads" priority="3">
+To be compliant to J2EE, a webapp should not use any thread.
+</violation>
+<violation beginline="231" endline="231" begincolumn="48" endcolumn="92" rule="DoNotUseThreads" ruleset="Multithreading" package="nl.tudelft.jpacman.level" class="Level" method="startNPCs" variable="service" externalInfoUrl="${pmd.website.baseurl}/pmd_rules_java_multithreading.html#donotusethreads" priority="3">
+To be compliant to J2EE, a webapp should not use any thread.
+</violation>
+<violation beginline="233" endline="234" begincolumn="13" endcolumn="62" rule="DoNotUseThreads" ruleset="Multithreading" package="nl.tudelft.jpacman.level" class="Level" method="startNPCs" externalInfoUrl="${pmd.website.baseurl}/pmd_rules_java_multithreading.html#donotusethreads" priority="3">
+To be compliant to J2EE, a webapp should not use any thread.
+</violation>
+<violation beginline="233" endline="233" begincolumn="30" endcolumn="59" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="nl.tudelft.jpacman.level" class="Level" method="startNPCs" externalInfoUrl="${pmd.website.baseurl}/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="245" endline="245" begincolumn="27" endcolumn="51" rule="DoNotUseThreads" ruleset="Multithreading" package="nl.tudelft.jpacman.level" class="Level" method="stopNPCs" externalInfoUrl="${pmd.website.baseurl}/pmd_rules_java_multithreading.html#donotusethreads" priority="3">
+To be compliant to J2EE, a webapp should not use any thread.
+</violation>
+<violation beginline="248" endline="248" begincolumn="13" endcolumn="35" rule="DoNotUseThreads" ruleset="Multithreading" package="nl.tudelft.jpacman.level" class="Level" method="stopNPCs" externalInfoUrl="${pmd.website.baseurl}/pmd_rules_java_multithreading.html#donotusethreads" priority="3">
+To be compliant to J2EE, a webapp should not use any thread.
+</violation>
+<violation beginline="325" endline="325" begincolumn="23" endcolumn="47" rule="DoNotUseThreads" ruleset="Multithreading" package="nl.tudelft.jpacman.level" class="NpcMoveTask" externalInfoUrl="${pmd.website.baseurl}/pmd_rules_java_multithreading.html#donotusethreads" priority="3">
+To be compliant to J2EE, a webapp should not use any thread.
+</violation>
+<violation beginline="340" endline="340" begincolumn="21" endcolumn="45" rule="DoNotUseThreads" ruleset="Multithreading" package="nl.tudelft.jpacman.level" class="NpcMoveTask" method="NpcMoveTask" externalInfoUrl="${pmd.website.baseurl}/pmd_rules_java_multithreading.html#donotusethreads" priority="3">
+To be compliant to J2EE, a webapp should not use any thread.
+</violation>
+<violation beginline="352" endline="352" begincolumn="13" endcolumn="68" rule="DoNotUseThreads" ruleset="Multithreading" package="nl.tudelft.jpacman.level" class="NpcMoveTask" method="run" externalInfoUrl="${pmd.website.baseurl}/pmd_rules_java_multithreading.html#donotusethreads" priority="3">
+To be compliant to J2EE, a webapp should not use any thread.
+</violation>
+</file>
+<file name="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/level/MapParser.java">
+<violation beginline="63" endline="63" begincolumn="27" endcolumn="39" rule="UseVarargs" ruleset="Best Practices" package="nl.tudelft.jpacman.level" class="MapParser" method="parseMap" variable="map" externalInfoUrl="${pmd.website.baseurl}/pmd_rules_java_bestpractices.html#usevarargs" priority="4">
+Consider using varargs for methods or constructors which take an array the last parameter.
+</violation>
+</file>
+<file name="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/npc/ghost/Clyde.java">
+<violation beginline="63" endline="63" begincolumn="52" endcolumn="94" rule="UseConcurrentHashMap" ruleset="Multithreading" package="nl.tudelft.jpacman.npc.ghost" class="Clyde" variable="OPPOSITES" externalInfoUrl="${pmd.website.baseurl}/pmd_rules_java_multithreading.html#useconcurrenthashmap" priority="3">
+If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+</violation>
+</file>
+<file name="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/npc/ghost/Navigation.java">
+<violation beginline="218" endline="218" begincolumn="22" endcolumn="31" rule="UnusedPrivateMethod" ruleset="Best Practices" package="nl.tudelft.jpacman.npc.ghost" class="Node" method="getParent" externalInfoUrl="${pmd.website.baseurl}/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'getParent()'.
+</violation>
+</file>
+<file name="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/sprite/PacManSprites.java">
+<violation beginline="89" endline="89" begincolumn="32" endcolumn="56" rule="UseConcurrentHashMap" ruleset="Multithreading" package="nl.tudelft.jpacman.sprite" class="PacManSprites" method="directionSprite" variable="sprite" externalInfoUrl="${pmd.website.baseurl}/pmd_rules_java_multithreading.html#useconcurrenthashmap" priority="3">
+If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+</violation>
+<violation beginline="89" endline="89" begincolumn="45" endcolumn="54" rule="UseEnumCollections" ruleset="Best Practices" package="nl.tudelft.jpacman.sprite" class="PacManSprites" method="directionSprite" externalInfoUrl="${pmd.website.baseurl}/pmd_rules_java_bestpractices.html#useenumcollections" priority="3">
+This collection could be an EnumMap
+</violation>
+</file>
+<file name="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/ui/ButtonPanel.java">
+<violation beginline="32" endline="32" begincolumn="30" endcolumn="50" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="nl.tudelft.jpacman.ui" class="ButtonPanel" method="ButtonPanel" variable="button" externalInfoUrl="${pmd.website.baseurl}/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+</file>
+<file name="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/ui/PacManUI.java">
+<violation beginline="105" endline="105" begincolumn="44" endcolumn="88" rule="DoNotUseThreads" ruleset="Multithreading" package="nl.tudelft.jpacman.ui" class="PacManUI" method="start" variable="service" externalInfoUrl="${pmd.website.baseurl}/pmd_rules_java_multithreading.html#donotusethreads" priority="3">
+To be compliant to J2EE, a webapp should not use any thread.
+</violation>
+<violation beginline="106" endline="106" begincolumn="9" endcolumn="95" rule="DoNotUseThreads" ruleset="Multithreading" package="nl.tudelft.jpacman.ui" class="PacManUI" method="start" externalInfoUrl="${pmd.website.baseurl}/pmd_rules_java_multithreading.html#donotusethreads" priority="3">
+To be compliant to J2EE, a webapp should not use any thread.
+</violation>
+</file>
+<file name="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/ui/PacManUiBuilder.java">
+<violation beginline="45" endline="45" begincolumn="28" endcolumn="42" rule="RedundantFieldInitializer" ruleset="Performance" package="nl.tudelft.jpacman.ui" class="PacManUiBuilder" variable="scoreFormatter" externalInfoUrl="${pmd.website.baseurl}/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'scoreFormatter'
+</violation>
+</file>
+<file name="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/ui/ScorePanel.java">
+<violation beginline="56" endline="56" begincolumn="17" endcolumn="57" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="nl.tudelft.jpacman.ui" class="ScorePanel" method="ScorePanel" externalInfoUrl="${pmd.website.baseurl}/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="60" endline="60" begincolumn="33" endcolumn="63" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" package="nl.tudelft.jpacman.ui" class="ScorePanel" method="ScorePanel" variable="scoreLabel" externalInfoUrl="${pmd.website.baseurl}/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="76" endline="76" begincolumn="13" endcolumn="18" rule="UseStringBufferForStringAppends" ruleset="Performance" package="nl.tudelft.jpacman.ui" class="ScorePanel" method="refresh" externalInfoUrl="${pmd.website.baseurl}/pmd_rules_java_performance.html#usestringbufferforstringappends" priority="3">
+Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings
+</violation>
+</file>
+<suppressedviolation filename="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/board/Board.java" suppressiontype="@suppresswarnings" msg="The user-supplied array 'grid' is stored directly." usermsg=""></suppressedviolation>
+</pmd>

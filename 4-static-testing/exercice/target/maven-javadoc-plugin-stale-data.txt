@@ -1,0 +1,119 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-classpath
+'/home/coqzieiro/.m2/repository/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar:/home/coqzieiro/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/home/coqzieiro/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/coqzieiro/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/home/coqzieiro/.m2/repository/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar:/home/coqzieiro/.m2/repository/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar:/home/coqzieiro/.m2/repository/org/assertj/assertj-core/3.27.5/assertj-core-3.27.5.jar:/home/coqzieiro/.m2/repository/net/bytebuddy/byte-buddy/1.17.7/byte-buddy-1.17.7.jar:/home/coqzieiro/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.13.4/junit-jupiter-api-5.13.4.jar:/home/coqzieiro/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/coqzieiro/.m2/repository/org/junit/platform/junit-platform-commons/1.13.4/junit-platform-commons-1.13.4.jar:/home/coqzieiro/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/coqzieiro/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.13.4/junit-jupiter-params-5.13.4.jar:/home/coqzieiro/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.13.4/junit-jupiter-engine-5.13.4.jar:/home/coqzieiro/.m2/repository/org/junit/platform/junit-platform-engine/1.13.4/junit-platform-engine-1.13.4.jar:/home/coqzieiro/.m2/repository/org/junit/platform/junit-platform-runner/1.13.4/junit-platform-runner-1.13.4.jar:/home/coqzieiro/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/coqzieiro/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/coqzieiro/.m2/repository/org/junit/platform/junit-platform-suite-api/1.13.4/junit-platform-suite-api-1.13.4.jar:/home/coqzieiro/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.13.4/junit-platform-suite-commons-1.13.4.jar:/home/coqzieiro/.m2/repository/org/junit/platform/junit-platform-launcher/1.13.4/junit-platform-launcher-1.13.4.jar:/home/coqzieiro/.m2/repository/org/mockito/mockito-core/5.20.0/mockito-core-5.20.0.jar:/home/coqzieiro/.m2/repository/net/bytebuddy/byte-buddy-agent/1.17.7/byte-buddy-agent-1.17.7.jar:/home/coqzieiro/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/home/coqzieiro/.m2/repository/org/mockito/mockito-junit-jupiter/5.20.0/mockito-junit-jupiter-5.20.0.jar:/home/coqzieiro/.m2/repository/io/cucumber/cucumber-java/7.28.2/cucumber-java-7.28.2.jar:/home/coqzieiro/.m2/repository/io/cucumber/cucumber-core/7.28.2/cucumber-core-7.28.2.jar:/home/coqzieiro/.m2/repository/io/cucumber/cucumber-gherkin/7.28.2/cucumber-gherkin-7.28.2.jar:/home/coqzieiro/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.28.2/cucumber-gherkin-messages-7.28.2.jar:/home/coqzieiro/.m2/repository/io/cucumber/gherkin/34.0.0/gherkin-34.0.0.jar:/home/coqzieiro/.m2/repository/io/cucumber/messages/28.1.0/messages-28.1.0.jar:/home/coqzieiro/.m2/repository/io/cucumber/pretty-formatter/2.1.0/pretty-formatter-2.1.0.jar:/home/coqzieiro/.m2/repository/io/cucumber/query/13.6.0/query-13.6.0.jar:/home/coqzieiro/.m2/repository/io/cucumber/testng-xml-formatter/0.5.0/testng-xml-formatter-0.5.0.jar:/home/coqzieiro/.m2/repository/io/cucumber/tag-expressions/6.1.2/tag-expressions-6.1.2.jar:/home/coqzieiro/.m2/repository/io/cucumber/cucumber-expressions/18.0.1/cucumber-expressions-18.0.1.jar:/home/coqzieiro/.m2/repository/io/cucumber/cucumber-json-formatter/0.1.3/cucumber-json-formatter-0.1.3.jar:/home/coqzieiro/.m2/repository/com/networknt/json-schema-validator/1.5.8/json-schema-validator-1.5.8.jar:/home/coqzieiro/.m2/repository/com/ethlo/time/itu/1.10.3/itu-1.10.3.jar:/home/coqzieiro/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.3/jackson-databind-2.18.3.jar:/home/coqzieiro/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.3/jackson-annotations-2.18.3.jar:/home/coqzieiro/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.3/jackson-core-2.18.3.jar:/home/coqzieiro/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.18.3/jackson-dataformat-yaml-2.18.3.jar:/home/coqzieiro/.m2/repository/org/yaml/snakeyaml/2.3/snakeyaml-2.3.jar:/home/coqzieiro/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/home/coqzieiro/.m2/repository/io/cucumber/datatable/7.28.2/datatable-7.28.2.jar:/home/coqzieiro/.m2/repository/io/cucumber/cucumber-plugin/7.28.2/cucumber-plugin-7.28.2.jar:/home/coqzieiro/.m2/repository/io/cucumber/docstring/7.28.2/docstring-7.28.2.jar:/home/coqzieiro/.m2/repository/io/cucumber/html-formatter/21.13.0/html-formatter-21.13.0.jar:/home/coqzieiro/.m2/repository/io/cucumber/junit-xml-formatter/0.8.1/junit-xml-formatter-0.8.1.jar:/home/coqzieiro/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar:/home/coqzieiro/.m2/repository/io/cucumber/cucumber-junit/7.28.2/cucumber-junit-7.28.2.jar:/home/coqzieiro/.m2/repository/net/jqwik/jqwik/1.9.3/jqwik-1.9.3.jar:/home/coqzieiro/.m2/repository/net/jqwik/jqwik-api/1.9.3/jqwik-api-1.9.3.jar:/home/coqzieiro/.m2/repository/net/jqwik/jqwik-web/1.9.3/jqwik-web-1.9.3.jar:/home/coqzieiro/.m2/repository/net/jqwik/jqwik-time/1.9.3/jqwik-time-1.9.3.jar:/home/coqzieiro/.m2/repository/net/jqwik/jqwik-engine/1.9.3/jqwik-engine-1.9.3.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'11'
+-sourcepath
+'/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java:/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2026 <a href="http://www.tudelft.nl">Delft University of Technology</a>. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'jpacman-framework 8.1.1 API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' '/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'jpacman-framework 8.1.1 API'
+nl.tudelft.jpacman.board
+nl.tudelft.jpacman.sprite
+nl.tudelft.jpacman.level
+nl.tudelft.jpacman
+nl.tudelft.jpacman.npc
+nl.tudelft.jpacman.npc.ghost
+nl.tudelft.jpacman.ui
+nl.tudelft.jpacman.game
+/home/coqzieiro/.m2/repository/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar = 1758140376000
+/home/coqzieiro/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar = 1742400951000
+/home/coqzieiro/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar = 1536694843000
+/home/coqzieiro/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar = 1721163610000
+/home/coqzieiro/.m2/repository/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar = 1753371490000
+/home/coqzieiro/.m2/repository/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar = 1755193789000
+/home/coqzieiro/.m2/repository/org/assertj/assertj-core/3.27.5/assertj-core-3.27.5.jar = 1758232392000
+/home/coqzieiro/.m2/repository/net/bytebuddy/byte-buddy/1.17.7/byte-buddy-1.17.7.jar = 1755383127000
+/home/coqzieiro/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.13.4/junit-jupiter-api-5.13.4.jar = 1753081158000
+/home/coqzieiro/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar = 1688646332000
+/home/coqzieiro/.m2/repository/org/junit/platform/junit-platform-commons/1.13.4/junit-platform-commons-1.13.4.jar = 1753081159000
+/home/coqzieiro/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar = 1624798415000
+/home/coqzieiro/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.13.4/junit-jupiter-params-5.13.4.jar = 1753081159000
+/home/coqzieiro/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.13.4/junit-jupiter-engine-5.13.4.jar = 1753081159000
+/home/coqzieiro/.m2/repository/org/junit/platform/junit-platform-engine/1.13.4/junit-platform-engine-1.13.4.jar = 1753081158000
+/home/coqzieiro/.m2/repository/org/junit/platform/junit-platform-runner/1.13.4/junit-platform-runner-1.13.4.jar = 1753081158000
+/home/coqzieiro/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar = 1613233912000
+/home/coqzieiro/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar = 1341868082000
+/home/coqzieiro/.m2/repository/org/junit/platform/junit-platform-suite-api/1.13.4/junit-platform-suite-api-1.13.4.jar = 1753081158000
+/home/coqzieiro/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.13.4/junit-platform-suite-commons-1.13.4.jar = 1753081159000
+/home/coqzieiro/.m2/repository/org/junit/platform/junit-platform-launcher/1.13.4/junit-platform-launcher-1.13.4.jar = 1753081158000
+/home/coqzieiro/.m2/repository/org/mockito/mockito-core/5.20.0/mockito-core-5.20.0.jar = 1758358961000
+/home/coqzieiro/.m2/repository/net/bytebuddy/byte-buddy-agent/1.17.7/byte-buddy-agent-1.17.7.jar = 1755383127000
+/home/coqzieiro/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar = 1659306610000
+/home/coqzieiro/.m2/repository/org/mockito/mockito-junit-jupiter/5.20.0/mockito-junit-jupiter-5.20.0.jar = 1758358961000
+/home/coqzieiro/.m2/repository/io/cucumber/cucumber-java/7.28.2/cucumber-java-7.28.2.jar = 1757384520000
+/home/coqzieiro/.m2/repository/io/cucumber/cucumber-core/7.28.2/cucumber-core-7.28.2.jar = 1757384521000
+/home/coqzieiro/.m2/repository/io/cucumber/cucumber-gherkin/7.28.2/cucumber-gherkin-7.28.2.jar = 1757384520000
+/home/coqzieiro/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.28.2/cucumber-gherkin-messages-7.28.2.jar = 1757384521000
+/home/coqzieiro/.m2/repository/io/cucumber/gherkin/34.0.0/gherkin-34.0.0.jar = 1755391324000
+/home/coqzieiro/.m2/repository/io/cucumber/messages/28.1.0/messages-28.1.0.jar = 1753108812000
+/home/coqzieiro/.m2/repository/io/cucumber/pretty-formatter/2.1.0/pretty-formatter-2.1.0.jar = 1755390832000
+/home/coqzieiro/.m2/repository/io/cucumber/query/13.6.0/query-13.6.0.jar = 1754913101000
+/home/coqzieiro/.m2/repository/io/cucumber/testng-xml-formatter/0.5.0/testng-xml-formatter-0.5.0.jar = 1752709517000
+/home/coqzieiro/.m2/repository/io/cucumber/tag-expressions/6.1.2/tag-expressions-6.1.2.jar = 1738174236000
+/home/coqzieiro/.m2/repository/io/cucumber/cucumber-expressions/18.0.1/cucumber-expressions-18.0.1.jar = 1730115594000
+/home/coqzieiro/.m2/repository/io/cucumber/cucumber-json-formatter/0.1.3/cucumber-json-formatter-0.1.3.jar = 1757383723000
+/home/coqzieiro/.m2/repository/com/networknt/json-schema-validator/1.5.8/json-schema-validator-1.5.8.jar = 1751074133000
+/home/coqzieiro/.m2/repository/com/ethlo/time/itu/1.10.3/itu-1.10.3.jar = 1736158021000
+/home/coqzieiro/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.3/jackson-databind-2.18.3.jar = 1740785902000
+/home/coqzieiro/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.3/jackson-annotations-2.18.3.jar = 1740785104000
+/home/coqzieiro/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.3/jackson-core-2.18.3.jar = 1740785352000
+/home/coqzieiro/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.18.3/jackson-dataformat-yaml-2.18.3.jar = 1740788428000
+/home/coqzieiro/.m2/repository/org/yaml/snakeyaml/2.3/snakeyaml-2.3.jar = 1725124922000
+/home/coqzieiro/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar = 1740501792000
+/home/coqzieiro/.m2/repository/io/cucumber/datatable/7.28.2/datatable-7.28.2.jar = 1757384521000
+/home/coqzieiro/.m2/repository/io/cucumber/cucumber-plugin/7.28.2/cucumber-plugin-7.28.2.jar = 1757384520000
+/home/coqzieiro/.m2/repository/io/cucumber/docstring/7.28.2/docstring-7.28.2.jar = 1757384521000
+/home/coqzieiro/.m2/repository/io/cucumber/html-formatter/21.13.0/html-formatter-21.13.0.jar = 1751911253000
+/home/coqzieiro/.m2/repository/io/cucumber/junit-xml-formatter/0.8.1/junit-xml-formatter-0.8.1.jar = 1755084755000
+/home/coqzieiro/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar = 1705341537000
+/home/coqzieiro/.m2/repository/io/cucumber/cucumber-junit/7.28.2/cucumber-junit-7.28.2.jar = 1757384521000
+/home/coqzieiro/.m2/repository/net/jqwik/jqwik/1.9.3/jqwik-1.9.3.jar = 1749296355000
+/home/coqzieiro/.m2/repository/net/jqwik/jqwik-api/1.9.3/jqwik-api-1.9.3.jar = 1749296342000
+/home/coqzieiro/.m2/repository/net/jqwik/jqwik-web/1.9.3/jqwik-web-1.9.3.jar = 1749296534000
+/home/coqzieiro/.m2/repository/net/jqwik/jqwik-time/1.9.3/jqwik-time-1.9.3.jar = 1749296513000
+/home/coqzieiro/.m2/repository/net/jqwik/jqwik-engine/1.9.3/jqwik-engine-1.9.3.jar = 1749296437000
+/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java = 1727276043000
+/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/target/generated-sources/annotations = 1791812471823
+/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/target/site/apidocs/package-search-index.zip = 1791812511332
+/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/target/site/apidocs/index.html = 1791812511360
+/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/target/site/apidocs/overview-tree.html = 1791812511304
+/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/target/site/apidocs/allclasses.html = 1791812511356
+/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/target/site/apidocs/deprecated-list.html = 1791812511352
+/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/target/site/apidocs/element-list = 1791812511088
+/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/target/site/apidocs/member-search-index.js = 1791812511332
+/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/target/site/apidocs/constant-values.html = 1791812511144
+/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/target/site/apidocs/help-doc.html = 1791812511364
+/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/target/site/apidocs/jquery-ui.overrides.css = 1791812511376
+/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/target/site/apidocs/stylesheet.css = 1791812511364
+/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/target/site/apidocs/allclasses-index.html = 1791812511344
+/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/target/site/apidocs/script.js = 1791812511364
+/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/target/site/apidocs/search.js = 1791812511368
+/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/target/site/apidocs/index-all.html = 1791812511336
+/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/target/site/apidocs/serialized-form.html = 1791812511152
+/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/target/site/apidocs/type-search-index.zip = 1791812511332
+/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/target/site/apidocs/type-search-index.js = 1791812511332
+/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/target/site/apidocs/member-search-index.zip = 1791812511336
+/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/target/site/apidocs/allpackages-index.html = 1791812511344
+/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/target/site/apidocs/package-search-index.js = 1791812511332
+/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/target/site/apidocs/overview-summary.html = 1791812511360

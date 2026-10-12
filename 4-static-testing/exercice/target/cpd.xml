@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd xmlns="https://pmd-code.org/schema/cpd-report"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         pmdVersion="7.14.0"
+         timestamp="2026-10-12T14:41:30.767275+01:00"
+         version="1.0.0"
+         xsi:schemaLocation="https://pmd-code.org/schema/cpd-report https://pmd.github.io/schema/cpd-report_1_0_0.xsd">
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/Launcher.java"
+         totalNumberOfTokens="469"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/PacmanConfigurationException.java"
+         totalNumberOfTokens="36"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/board/Board.java"
+         totalNumberOfTokens="178"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/board/BoardFactory.java"
+         totalNumberOfTokens="298"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/board/Direction.java"
+         totalNumberOfTokens="80"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/board/Square.java"
+         totalNumberOfTokens="211"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/board/Unit.java"
+         totalNumberOfTokens="223"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/game/Game.java"
+         totalNumberOfTokens="202"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/game/GameFactory.java"
+         totalNumberOfTokens="52"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/game/SinglePlayerGame.java"
+         totalNumberOfTokens="82"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/level/CollisionInteractionMap.java"
+         totalNumberOfTokens="731"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/level/CollisionMap.java"
+         totalNumberOfTokens="23"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/level/DefaultPlayerInteractionMap.java"
+         totalNumberOfTokens="115"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/level/Level.java"
+         totalNumberOfTokens="838"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/level/LevelFactory.java"
+         totalNumberOfTokens="269"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/level/MapParser.java"
+         totalNumberOfTokens="762"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/level/Pellet.java"
+         totalNumberOfTokens="56"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/level/Player.java"
+         totalNumberOfTokens="164"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/level/PlayerCollisions.java"
+         totalNumberOfTokens="223"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/level/PlayerFactory.java"
+         totalNumberOfTokens="58"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/npc/Ghost.java"
+         totalNumberOfTokens="229"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/npc/ghost/Blinky.java"
+         totalNumberOfTokens="152"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/npc/ghost/Clyde.java"
+         totalNumberOfTokens="258"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/npc/ghost/GhostColor.java"
+         totalNumberOfTokens="12"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/npc/ghost/GhostFactory.java"
+         totalNumberOfTokens="102"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/npc/ghost/Inky.java"
+         totalNumberOfTokens="260"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/npc/ghost/Navigation.java"
+         totalNumberOfTokens="661"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/npc/ghost/Pinky.java"
+         totalNumberOfTokens="160"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/npc/ghost/package-info.java"
+         totalNumberOfTokens="0"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/sprite/AnimatedSprite.java"
+         totalNumberOfTokens="392"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/sprite/EmptySprite.java"
+         totalNumberOfTokens="77"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/sprite/ImageSprite.java"
+         totalNumberOfTokens="294"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/sprite/PacManSprites.java"
+         totalNumberOfTokens="345"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/sprite/Sprite.java"
+         totalNumberOfTokens="46"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/sprite/SpriteStore.java"
+         totalNumberOfTokens="225"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/ui/Action.java"
+         totalNumberOfTokens="9"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/ui/BoardPanel.java"
+         totalNumberOfTokens="342"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/ui/ButtonPanel.java"
+         totalNumberOfTokens="91"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/ui/PacKeyListener.java"
+         totalNumberOfTokens="99"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/ui/PacManUI.java"
+         totalNumberOfTokens="235"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/ui/PacManUiBuilder.java"
+         totalNumberOfTokens="275"/>
+   <file path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/ui/ScorePanel.java"
+         totalNumberOfTokens="256"/>
+   <duplication lines="32" tokens="109">
+      <file begintoken="5342"
+            column="18"
+            endcolumn="47"
+            endline="95"
+            endtoken="5450"
+            line="64"
+            path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/npc/ghost/Blinky.java"/>
+      <file begintoken="5573"
+            column="17"
+            endcolumn="47"
+            endline="105"
+            endtoken="5681"
+            line="77"
+            path="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/4-static-testing/exercice/src/main/java/nl/tudelft/jpacman/npc/ghost/Clyde.java"/>
+      <codefragment><![CDATA[    public Blinky(Map<Direction, Sprite> spriteMap) {
+        super(spriteMap, MOVE_INTERVAL, INTERVAL_VARIATION);
+    }
+
+    /**
+     * {@inheritDoc}
+     *
+     * <p>
+     * When the ghosts are not patrolling in their home corners (Blinky:
+     * top-right, Pinky: top-left, Inky: bottom-right, Clyde: bottom-left),
+     * Blinky will attempt to shorten the distance between Pac-Man and himself.
+     * If he has to choose between shortening the horizontal or vertical
+     * distance, he will choose to shorten whichever is greatest. For example,
+     * if Pac-Man is four grid spaces to the left, and seven grid spaces above
+     * Blinky, he'll try to move up towards Pac-Man before he moves to the left.
+     * </p>
+     */
+    @Override
+    public Optional<Direction> nextAiMove() {
+        assert hasSquare();
+
+        // TODO Blinky should patrol his corner every once in a while
+        // TODO Implement his actual behaviour instead of simply chasing.
+        Unit nearest = Navigation.findNearest(Player.class, getSquare());
+        if (nearest == null) {
+            return Optional.empty();
+        }
+        assert nearest.hasSquare();
+        Square target = nearest.getSquare();
+
+        List<Direction> path = Navigation.shortestPath(getSquare(), target, this);
+        if (path != null && !path.isEmpty()) {
+]]></codefragment>
+   </duplication>
+</pmd-cpd>
