@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.14.0" timestamp="2026-10-19T14:25:53.926">
+<file name="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/5-blackbox/exercicio/src/main/java/nl/tudelft/jpacman/board/Square.java">
+<violation beginline="107" endline="107" begincolumn="41" endcolumn="69" rule="CompareObjectsWithEquals" ruleset="Error Prone" package="nl.tudelft.jpacman.board" class="Square" method="invariant" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_errorprone.html#compareobjectswithequals" priority="3">
+Use equals() to compare object references.
+</violation>
+</file>
+<file name="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/5-blackbox/exercicio/src/main/java/nl/tudelft/jpacman/level/CollisionInteractionMap.java">
+<violation beginline="47" endline="47" begincolumn="13" endcolumn="28" rule="GenericsNaming" ruleset="Code Style" package="nl.tudelft.jpacman.level" class="CollisionInteractionMap" method="onCollision" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_codestyle.html#genericsnaming" priority="4">
+Generics names should be a one letter long and upper case.
+</violation>
+<violation beginline="47" endline="47" begincolumn="30" endcolumn="45" rule="GenericsNaming" ruleset="Code Style" package="nl.tudelft.jpacman.level" class="CollisionInteractionMap" method="onCollision" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_codestyle.html#genericsnaming" priority="4">
+Generics names should be a one letter long and upper case.
+</violation>
+<violation beginline="71" endline="71" begincolumn="13" endcolumn="28" rule="GenericsNaming" ruleset="Code Style" package="nl.tudelft.jpacman.level" class="CollisionInteractionMap" method="onCollision" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_codestyle.html#genericsnaming" priority="4">
+Generics names should be a one letter long and upper case.
+</violation>
+<violation beginline="71" endline="71" begincolumn="30" endcolumn="45" rule="GenericsNaming" ruleset="Code Style" package="nl.tudelft.jpacman.level" class="CollisionInteractionMap" method="onCollision" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_codestyle.html#genericsnaming" priority="4">
+Generics names should be a one letter long and upper case.
+</violation>
+<violation beginline="116" endline="116" begincolumn="13" endcolumn="28" rule="GenericsNaming" ruleset="Code Style" package="nl.tudelft.jpacman.level" class="CollisionInteractionMap" method="collide" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_codestyle.html#genericsnaming" priority="4">
+Generics names should be a one letter long and upper case.
+</violation>
+<violation beginline="116" endline="116" begincolumn="30" endcolumn="45" rule="GenericsNaming" ruleset="Code Style" package="nl.tudelft.jpacman.level" class="CollisionInteractionMap" method="collide" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_codestyle.html#genericsnaming" priority="4">
+Generics names should be a one letter long and upper case.
+</violation>
+<violation beginline="200" endline="200" begincolumn="39" endcolumn="54" rule="GenericsNaming" ruleset="Code Style" package="nl.tudelft.jpacman.level" class="CollisionHandler" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_codestyle.html#genericsnaming" priority="4">
+Generics names should be a one letter long and upper case.
+</violation>
+<violation beginline="200" endline="200" begincolumn="56" endcolumn="71" rule="GenericsNaming" ruleset="Code Style" package="nl.tudelft.jpacman.level" class="CollisionHandler" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_codestyle.html#genericsnaming" priority="4">
+Generics names should be a one letter long and upper case.
+</violation>
+<violation beginline="223" endline="223" begincolumn="50" endcolumn="65" rule="GenericsNaming" ruleset="Code Style" package="nl.tudelft.jpacman.level" class="InverseCollisionHandler" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_codestyle.html#genericsnaming" priority="4">
+Generics names should be a one letter long and upper case.
+</violation>
+<violation beginline="223" endline="223" begincolumn="67" endcolumn="82" rule="GenericsNaming" ruleset="Code Style" package="nl.tudelft.jpacman.level" class="InverseCollisionHandler" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_codestyle.html#genericsnaming" priority="4">
+Generics names should be a one letter long and upper case.
+</violation>
+</file>
+<file name="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/5-blackbox/exercicio/src/main/java/nl/tudelft/jpacman/level/CollisionMap.java">
+<violation beginline="28" endline="28" begincolumn="6" endcolumn="21" rule="GenericsNaming" ruleset="Code Style" package="nl.tudelft.jpacman.level" class="CollisionMap" method="collide" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_codestyle.html#genericsnaming" priority="4">
+Generics names should be a one letter long and upper case.
+</violation>
+<violation beginline="28" endline="28" begincolumn="23" endcolumn="38" rule="GenericsNaming" ruleset="Code Style" package="nl.tudelft.jpacman.level" class="CollisionMap" method="collide" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_codestyle.html#genericsnaming" priority="4">
+Generics names should be a one letter long and upper case.
+</violation>
+</file>
+<file name="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/5-blackbox/exercicio/src/main/java/nl/tudelft/jpacman/npc/ghost/Navigation.java">
+<violation beginline="60" endline="60" begincolumn="16" endcolumn="20" rule="ReturnEmptyCollectionRatherThanNull" ruleset="Error Prone" package="nl.tudelft.jpacman.npc.ghost" class="Navigation" method="shortestPath" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_errorprone.html#returnemptycollectionratherthannull" priority="1">
+Return an empty collection rather than null.
+</violation>
+<violation beginline="124" endline="124" begincolumn="33" endcolumn="43" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="nl.tudelft.jpacman.npc.ghost" class="Navigation" method="findUnitInBoard" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary qualifier 'Navigation': 'findUnit' is already in scope
+</violation>
+<violation beginline="218" endline="218" begincolumn="22" endcolumn="31" rule="UnusedPrivateMethod" ruleset="Best Practices" package="nl.tudelft.jpacman.npc.ghost" class="Node" method="getParent" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'getParent()'.
+</violation>
+</file>
+<file name="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/5-blackbox/exercicio/src/main/java/nl/tudelft/jpacman/sprite/PacManSprites.java">
+<violation beginline="110" endline="110" begincolumn="46" endcolumn="72" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="nl.tudelft.jpacman.sprite" class="PacManSprites" method="getGhostSprite" variable="resource" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+</file>
+<file name="/home/coqzieiro/Área de Trabalho/Teste Software/testing-software/5-blackbox/exercicio/src/main/java/nl/tudelft/jpacman/ui/PacManUI.java">
+<violation beginline="76" endline="76" begincolumn="34" endcolumn="49" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="nl.tudelft.jpacman.ui" class="PacManUI" method="PacManUI" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary qualifier 'WindowConstants': 'EXIT_ON_CLOSE' is already in scope because it is inherited by an enclosing type
+</violation>
+</file>
+</pmd>
