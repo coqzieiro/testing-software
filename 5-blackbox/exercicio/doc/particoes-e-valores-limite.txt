@@ -1,0 +1,74 @@
+Exercicio: Particionamento de Classes de Equivalencia e Analise de Valores Limite
+================================================================================
+
+Convencoes
+----------
+Os casos validos usam objetos nao nulos e estruturas consistentes. Entradas
+fora das pre-condicoes ou sem comportamento especificado nao recebem uma
+expectativa de erro. Os testes verificam a identidade dos objetos e os efeitos
+observaveis de cada funcao.
+
+1. Board.squareAt(int x, int y)
+-------------------------------
+Dominio valido definido no Javadoc:
+  0 <= x < largura do board
+  0 <= y < altura do board
+
+Para cada coordenada, as classes validas sao a borda inferior (0), o interior
+e a borda superior (dimensao - 1). Coordenadas fora desse dominio violam a
+pre-condicao e nao sao testadas.
+
+Valores-limite usados: em um board 5 x 5, x e y percorrem {0, 1, 2, 3, 4}.
+Assim, 0 e 1 cobrem a borda inferior e seu vizinho; 3 e 4 cobrem o vizinho da
+borda superior e a propria borda; 2 e um valor nominal do interior. O produto
+cartesiano dos valores gera 25 entradas. Cada entrada deve retornar a mesma
+instancia Square armazenada naquela posicao.
+
+2. BoardFactory.createBoard(Square[][] grid)
+--------------------------------------------
+Dominio valido: grid nao nulo, retangular, com largura e altura positivas e
+sem celulas nulas.
+
+As classes estruturais sao: largura 1 ou maior que 1, combinada com altura 1
+ou maior que 1. Para cobrir a dimensao minima, seu vizinho e uma dimensao
+nominal, sao testados todos os pares largura/altura em {1, 2, 3} x {1, 2, 3}
+(9 formatos). Para cada formato, os testes verificam dimensoes, identidade de
+todas as celulas e as quatro conexoes direcionais, incluindo o retorno
+circular nas bordas. Grids nulos, vazios, irregulares ou com celulas nulas
+nao tem comportamento de erro especificado e ficam fora do dominio testado.
+
+3. LevelFactory.createLevel(Board board, List<Ghost> ghosts,
+                            List<Square> startPositions)
+----------------------------------------------------------
+O board deve ser valido e nao nulo. Para cada lista, as classes de tamanho
+sao vazia, com um elemento e com varios elementos; os representantes usados
+sao 0, 1 e 2. Sao testadas as 9 combinacoes de tamanhos das duas listas.
+
+O resultado deve conservar o board. As posicoes iniciais sao verificadas
+registrando jogadores quando ha posicoes, incluindo a volta ao inicio da
+lista. A lista vazia e testada apenas na criacao do Level, pois nao ha posicao
+para registrar um jogador. Os Ghosts sao verificados iniciando e parando o
+Level, sem deixar tarefas em execucao.
+
+4. MapParser.makeGhostSquare(List<Ghost> ghosts, Ghost ghost)
+------------------------------------------------------------
+O Ghost novo deve ser nao nulo e ainda nao estar colocado. Para a lista
+existente, os representantes 0, 1 e 2 cobrem as classes vazia, unitaria e
+com varios Ghosts. Em cada caso, a funcao deve criar uma Square, acrescentar
+o Ghost ao final da lista e coloca-lo na Square retornada.
+
+5. ImageSprite.draw(Graphics graphics, int x, int y, int width, int height)
+--------------------------------------------------------------------------
+O Graphics e nao nulo. Como o Javadoc nao define limites para x, y, width ou
+height, cada inteiro e particionado pelo sinal: negativo, zero ou positivo.
+Os valores -1, 0 e 1 representam essas classes e a vizinhanca do limite zero.
+O produto cartesiano completo gera 3^4 = 81 entradas. Os testes verificam que
+a funcao encaminha a imagem original, o retangulo de destino
+(x, y, x + width, y + height) e a imagem de origem completa para
+Graphics.drawImage.
+
+Cobertura automatizada
+----------------------
+Os testes correspondentes ficam em src/test/java e cobrem 25 entradas para
+squareAt, 9 formatos para createBoard, 9 combinacoes para createLevel,
+3 tamanhos de lista para makeGhostSquare e 81 combinacoes para draw.

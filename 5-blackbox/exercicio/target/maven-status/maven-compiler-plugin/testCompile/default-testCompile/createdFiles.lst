@@ -1,0 +1,8 @@
+nl/tudelft/jpacman/sprite/ImageSpriteTest.class
+nl/tudelft/jpacman/level/MapParserTest.class
+nl/tudelft/jpacman/board/BoardFactoryTest.class
+nl/tudelft/jpacman/level/LevelFactoryTest.class
+nl/tudelft/jpacman/level/MapParserTest$TestGhost.class
+nl/tudelft/jpacman/board/StubSquare.class
+nl/tudelft/jpacman/level/LevelFactoryTest$TrackingGhost.class
+nl/tudelft/jpacman/board/BoardTest.class
