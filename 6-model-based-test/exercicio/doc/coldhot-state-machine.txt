@@ -1,0 +1,28 @@
+ColdHot - State machine
+=======================
+
+States (4)
+----------
+OFF       The system is switched off.
+IDLE      The system is on and neither heating nor cooling.
+COOLING   The system is cooling the room.
+HEATING   The system is heating the room.
+
+Events (5)
+----------
+turnOn, turnOff, roomTooHot, roomTooCold, targetTemperatureReached
+
+Transitions (8)
+---------------
+OFF     --turnOn------------------------> IDLE
+IDLE    --turnOff-----------------------> OFF
+IDLE    --roomTooHot--------------------> COOLING
+COOLING --targetTemperatureReached------> IDLE
+COOLING --turnOff-----------------------> OFF
+IDLE    --roomTooCold-------------------> HEATING
+HEATING --targetTemperatureReached------> IDLE
+HEATING --turnOff-----------------------> OFF
+
+The requirements define 4 states, 8 transitions, and 5 event types. Turning
+the system off is supported from every powered state. Events not listed for a
+state do not cause a transition.

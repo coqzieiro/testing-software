@@ -1,0 +1,20 @@
+ColdHot - Transition tree
+=========================
+
+To keep the tree finite, paths below do not revisit a state. Cycles such as
+IDLE -> COOLING -> IDLE are therefore shown as a leaf when they return to a
+state already on that path.
+
+OFF
+`-- turnOn -> IDLE
+    |-- turnOff -> OFF
+    |-- roomTooHot -> COOLING
+    |   |-- turnOff -> OFF
+    |   `-- targetTemperatureReached -> IDLE
+    `-- roomTooCold -> HEATING
+        |-- turnOff -> OFF
+        `-- targetTemperatureReached -> IDLE
+
+There are 5 terminal paths in this simple-path tree. If paths may repeat
+states/events without a length limit, there are infinitely many paths because
+the machine contains cycles.

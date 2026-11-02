@@ -1,4 +1,4 @@
-package pt.up.fe.inject;
+package pt.up.fe.api;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.mock;

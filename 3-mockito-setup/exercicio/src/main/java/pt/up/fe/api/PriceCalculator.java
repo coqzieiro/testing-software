@@ -1,4 +1,4 @@
-package pt.up.fe.inject;
+package pt.up.fe.api;
 
 public interface PriceCalculator {
   public double getPrice(String itemId);

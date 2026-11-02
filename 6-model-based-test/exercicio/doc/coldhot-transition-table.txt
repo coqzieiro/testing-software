@@ -1,0 +1,29 @@
+ColdHot - Transition table
+=========================
+
+Current state | Event                       | Next state | Classification
+--------------|-----------------------------|------------|---------------
+OFF           | turnOn                      | IDLE       | Normal
+OFF           | turnOff                     | -          | Sneaky
+OFF           | roomTooHot                  | -          | Sneaky
+OFF           | roomTooCold                 | -          | Sneaky
+OFF           | targetTemperatureReached    | -          | Sneaky
+IDLE          | turnOn                      | -          | Sneaky
+IDLE          | turnOff                     | OFF        | Normal
+IDLE          | roomTooHot                  | COOLING    | Normal
+IDLE          | roomTooCold                 | HEATING    | Normal
+IDLE          | targetTemperatureReached    | -          | Sneaky
+COOLING       | turnOn                      | -          | Sneaky
+COOLING       | turnOff                     | OFF        | Normal
+COOLING       | roomTooHot                  | -          | Sneaky
+COOLING       | roomTooCold                 | -          | Sneaky
+COOLING       | targetTemperatureReached    | IDLE       | Normal
+HEATING       | turnOn                      | -          | Sneaky
+HEATING       | turnOff                     | OFF        | Normal
+HEATING       | roomTooHot                  | -          | Sneaky
+HEATING       | roomTooCold                 | -          | Sneaky
+HEATING       | targetTemperatureReached    | IDLE       | Normal
+
+Counting each state/event pair once gives 8 normal transitions and 12 sneaky
+(undefined) transitions. "Sneaky" here means an event that is not valid in the
+current state; it is not a transition in the specified machine.
