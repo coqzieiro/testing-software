@@ -1,29 +1,27 @@
 ColdHot - Transition table
-=========================
 
 Current state | Event                       | Next state | Classification
---------------|-----------------------------|------------|---------------
+--------------|-----------------------------|------------|--------------------
 OFF           | turnOn                      | IDLE       | Normal
-OFF           | turnOff                     | -          | Sneaky
-OFF           | roomTooHot                  | -          | Sneaky
-OFF           | roomTooCold                 | -          | Sneaky
-OFF           | targetTemperatureReached    | -          | Sneaky
-IDLE          | turnOn                      | -          | Sneaky
+OFF           | turnOff                     | -          | ignored
+OFF           | roomTooHot                  | -          | ignored
+OFF           | roomTooCold                 | -          | ignored
+OFF           | targetTemperatureReached    | -          | impossible
+IDLE          | turnOn                      | -          | ignored
 IDLE          | turnOff                     | OFF        | Normal
 IDLE          | roomTooHot                  | COOLING    | Normal
 IDLE          | roomTooCold                 | HEATING    | Normal
-IDLE          | targetTemperatureReached    | -          | Sneaky
-COOLING       | turnOn                      | -          | Sneaky
+IDLE          | targetTemperatureReached    | -          | impossible
+COOLING       | turnOn                      | -          | ignored
 COOLING       | turnOff                     | OFF        | Normal
-COOLING       | roomTooHot                  | -          | Sneaky
-COOLING       | roomTooCold                 | -          | Sneaky
+COOLING       | roomTooHot                  | -          | ignored
+COOLING       | roomTooCold                 | -          | impossible
 COOLING       | targetTemperatureReached    | IDLE       | Normal
-HEATING       | turnOn                      | -          | Sneaky
+HEATING       | turnOn                      | -          | ignored
 HEATING       | turnOff                     | OFF        | Normal
-HEATING       | roomTooHot                  | -          | Sneaky
-HEATING       | roomTooCold                 | -          | Sneaky
+HEATING       | roomTooHot                  | -          | impossible
+HEATING       | roomTooCold                 | -          | ignored
 HEATING       | targetTemperatureReached    | IDLE       | Normal
 
-Counting each state/event pair once gives 8 normal transitions and 12 sneaky
-(undefined) transitions. "Sneaky" here means an event that is not valid in the
-current state; it is not a transition in the specified machine.
+Counting each state/event pair once gives 8 normal transitions and 12
+paths Sneaky (8 ignored + 4 physically impossible).

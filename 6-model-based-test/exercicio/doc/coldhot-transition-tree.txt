@@ -1,5 +1,4 @@
 ColdHot - Transition tree
-=========================
 
 To keep the tree finite, paths below do not revisit a state. Cycles such as
 IDLE -> COOLING -> IDLE are therefore shown as a leaf when they return to a

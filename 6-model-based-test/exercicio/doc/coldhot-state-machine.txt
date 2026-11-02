@@ -1,5 +1,4 @@
 ColdHot - State machine
-=======================
 
 States (4)
 ----------
