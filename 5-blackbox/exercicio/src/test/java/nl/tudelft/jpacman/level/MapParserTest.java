@@ -15,14 +15,15 @@ import nl.tudelft.jpacman.board.Direction;
 import nl.tudelft.jpacman.board.Square;
 import nl.tudelft.jpacman.npc.Ghost;
 import nl.tudelft.jpacman.sprite.PacManSprites;
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.ValueSource;
+import net.jqwik.api.ForAll;
+import net.jqwik.api.Property;
+import net.jqwik.api.constraints.IntRange;
 
 class MapParserTest {
 
-    @ParameterizedTest(name = "makeGhostSquare appends to a list of size {0}")
-    @ValueSource(ints = {0, 1, 2})
-    void makeGhostSquareCreatesAndOccupiesASquare(int existingGhostCount) {
+    @Property
+    void makeGhostSquareCreatesAndOccupiesASquare(
+        @ForAll @IntRange(min = 0, max = 20) int existingGhostCount) {
         BoardFactory boardFactory = new BoardFactory(mock(PacManSprites.class));
         MapParser parser = new MapParser(
             mock(LevelFactory.class), boardFactory);

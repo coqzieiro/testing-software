@@ -11,8 +11,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 import nl.tudelft.jpacman.board.Board;
 import nl.tudelft.jpacman.board.BoardFactory;
@@ -21,15 +19,16 @@ import nl.tudelft.jpacman.board.Square;
 import nl.tudelft.jpacman.npc.Ghost;
 import nl.tudelft.jpacman.npc.ghost.GhostFactory;
 import nl.tudelft.jpacman.sprite.PacManSprites;
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.Arguments;
-import org.junit.jupiter.params.provider.MethodSource;
+import net.jqwik.api.ForAll;
+import net.jqwik.api.Property;
+import net.jqwik.api.constraints.IntRange;
 
 class LevelFactoryTest {
 
-    @ParameterizedTest(name = "createLevel with {0} ghosts and {1} start positions")
-    @MethodSource("listSizes")
-    void createLevelUsesTheProvidedBoardAndLists(int ghostCount, int startCount) {
+    @Property
+    void createLevelUsesTheProvidedBoardAndLists(
+        @ForAll @IntRange(min = 0, max = 2) int ghostCount,
+        @ForAll @IntRange(min = 0, max = 2) int startCount) {
         Board board = createBoard();
         List<TrackingGhost> trackingGhosts = createGhosts(ghostCount);
         List<Ghost> ghosts = new ArrayList<>(trackingGhosts);
@@ -62,12 +61,6 @@ class LevelFactoryTest {
             }
         }
         assertFalse(level.isInProgress());
-    }
-
-    private static Stream<Arguments> listSizes() {
-        return IntStream.rangeClosed(0, 2).boxed()
-            .flatMap(ghostCount -> IntStream.rangeClosed(0, 2)
-                .mapToObj(startCount -> Arguments.of(ghostCount, startCount)));
     }
 
     private static Board createBoard() {

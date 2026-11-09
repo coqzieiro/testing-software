@@ -5,21 +5,19 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertSame;
 import static org.mockito.Mockito.mock;
 
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
-
 import nl.tudelft.jpacman.sprite.PacManSprites;
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.Arguments;
-import org.junit.jupiter.params.provider.MethodSource;
+import net.jqwik.api.ForAll;
+import net.jqwik.api.Property;
+import net.jqwik.api.constraints.IntRange;
 
 class BoardFactoryTest {
 
     private final BoardFactory factory = new BoardFactory(mock(PacManSprites.class));
 
-    @ParameterizedTest(name = "createBoard links a {0}x{1} grid")
-    @MethodSource("gridDimensions")
-    void createBoardPreservesCellsAndConnectsWrappedNeighbours(int width, int height) {
+    @Property
+    void createBoardPreservesCellsAndConnectsWrappedNeighbours(
+        @ForAll @IntRange(min = 1, max = 8) int width,
+        @ForAll @IntRange(min = 1, max = 8) int height) {
         Square[][] grid = createGrid(width, height);
 
         Board board = factory.createBoard(grid);
@@ -40,12 +38,6 @@ class BoardFactoryTest {
                 }
             }
         }
-    }
-
-    private static Stream<Arguments> gridDimensions() {
-        return IntStream.rangeClosed(1, 3).boxed()
-            .flatMap(width -> IntStream.rangeClosed(1, 3)
-                .mapToObj(height -> Arguments.of(width, height)));
     }
 
     private static Square[][] createGrid(int width, int height) {
